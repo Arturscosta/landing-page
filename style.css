@@ -97,3 +97,58 @@ img {
     aspect-ratio: 1 / 1;
     border-radius: 20px;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 4% 20%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    align-self: flex-end;
+}
+
+.call-to-action {
+    margin: 4% 12%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding: 40px 8%;
+}
+
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
+.call-to-action-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-to-action-button {
+    border: 1px solid white;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 0 12%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
